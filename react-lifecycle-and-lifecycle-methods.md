@@ -44,3 +44,11 @@ This method is called when the component is removed from the DOM.
 
 It is generally used when you want to clear up things related to the component. For example, when a user logs outs of an application, you may want to clear their credentials and the other authorization tokens due to security purposes.
 
+
+
+#### **`shouldComponentUpdate()`**
+
+A method in React component which is overidden to prevent updating the components.
+
+
+
