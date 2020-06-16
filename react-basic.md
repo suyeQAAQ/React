@@ -221,6 +221,8 @@ The data is passed to a component through Props
 
 JSX is a type-safe language
 
+**Batching**: When you make multiple `setState()` calls within a function, React gathers all states and performs the operation only once
+
 
 
 ## State in React
