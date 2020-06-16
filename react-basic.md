@@ -34,5 +34,24 @@ console.log(new_object);
 //{ name: 'Jhon', ID: '21', GPA: '3.0', semester: '3' }
 ```
 
+#### Generator Function Declaration
+
+The **`function*`** declaration \(`function` keyword followed by an asterisk\) defines a _generator function_, which returns a [`Generator`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) object.
+
+```javascript
+function* generator(i) {
+  yield i;
+  yield i + 10;
+}
+
+const gen = generator(10);
+
+console.log(gen.next().value);
+// expected output: 10
+
+console.log(gen.next().value);
+// expected output: 20
+```
+
 
 
