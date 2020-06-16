@@ -215,6 +215,12 @@ JavaScript classes are basically objects. Because classes are syntactic sugar ov
 
  ES6 does support _overriding_.
 
+The data is passed to a component through Props
+
+ As `setState` method invokes `render()` so calling `setState()` inside `render()` method would cause it to get stuck in a loop!
+
+JSX is a type-safe language
+
 
 
 ## State in React
