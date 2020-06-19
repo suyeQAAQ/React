@@ -4,7 +4,7 @@ description: The main purpose of using lifecycle methods is to free the resource
 
 # React Lifecycle & Lifecycle Methods
 
-![](.gitbook/assets/1111111111.png)
+![](.gitbook/assets/1111111111%20%281%29.png)
 
 #### `componentWillMount()`
 
