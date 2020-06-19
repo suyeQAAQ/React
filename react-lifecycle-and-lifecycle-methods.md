@@ -4,6 +4,8 @@ description: The main purpose of using lifecycle methods is to free the resource
 
 # React Lifecycle & Lifecycle Methods
 
+![](.gitbook/assets/1111111111.png)
+
 #### `componentWillMount()`
 
 This method is invoked before a component is mounted on the DOM. This happens once in the lifecycle of a component and before the first render.
